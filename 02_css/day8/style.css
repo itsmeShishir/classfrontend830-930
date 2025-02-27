@@ -1,0 +1,56 @@
+/* this is a commnet  */
+
+/* 
+this is 
+a css file 
+ */
+
+h3{
+    background-color: yellow;
+    color: red;
+    font-size: 40px;
+}
+/* h3 -> selector */
+/* background-color: -> properties */
+/* yellow -> value */
+
+/* selector -> 
+tag selector, 
+class selecotr, 
+id selector, 
+group selector, 
+universal selector, 
+*/
+/* tag ->h1, body, h, p,a, bottom , div, selector, footer */
+h3{
+    background-color: yellow;
+    color: red;
+    font-size: 40px;
+}
+/* class selector -> . */
+.hello{
+    background-color: pink;
+    color: red;
+}
+/* id selector -> # */
+#thisid{
+    background-color: yellow;
+    color: red;
+    font-size: 40px;
+}
+/* universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+/* group selector -> h1, h2, h3{} */
+h1, h2, h3, h4, h5, h6, p{
+    font-size: 20px;
+    font-weight: 400;
+    color: lawngreen;
+}
+/* hierachy in css */
+/* inline css, internal css , external css ( id, class, tag, group, universal selector) */
+
