@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@font-face {
+    font-family: shishir ;
+    src: url("./assets/Atma-Regular.ttf");
+}
+
+.heading{
+    color: red;
+    background-color: aquamarine;
+}
+
+/* font size, font-width, font-family */
+#hello{
+    font-size: 20px; 
+    /*  16 px  */
+    font-weight: 600;
+    /* 400 -> 100 to 900  */
+    font-family: cursive;
+    /* system font mac -> mac  */
+    font-style: italic ;
+    /* normal  */
+    font-stretch: normal;
+    /* letter  */
+    letter-spacing: 40px; 
+}
+.desc{
+    /* word  */
+    word-spacing: 4px;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-family: Outfit;
+    /* normal */
+}
+.desc2{
+    font-family: shishir;
+}
+.button{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    /* padding -> invisible space between content to border */
+    /* padding top -> padding right -> padding bottom -> padding left */
+    padding: 100px;
+    padding-top: 20px;
+    padding-right: 22px;
+    padding-bottom: 21px;
+    padding-left: 24px;
+    /* padding: 10px 20px;
+    padding: 10px 20px 0px 0px; */
+    /* border -> visible space between margin and padding */
+    
+    border-width: 20px;
+    border-style: solid;
+    border-style: dashed;
+    border-style: double;
+    border-style: dotted;
+    border-color: green;
+    border: 3px solid red;
+    border-radius: 50px;
+    /* margin -> space between two element */
+    margin: 50px;
+}
