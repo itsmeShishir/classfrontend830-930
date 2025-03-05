@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+div{
+    background-color: red;
+}
+a{
+    background-color: green;
+    text-decoration: none;
+}
+/* inline element div-> block */
+.one{
+    /* display: inline;
+    display: block; */
+    display: inline-block;
+    width: 100%;
+    /* display: none; */
+    visibility: hidden;
+}
