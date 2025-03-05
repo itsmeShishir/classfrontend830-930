@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.zero{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+img{
+    width: 300px;
+    height: 450px;
+
+}
+.two{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    /* z-index :1 , 0, -1 */
+    z-index: -1;
+}
+
+/* 3d effect  */
+h1{
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgb(255, 0, 0);
+}
+/* text-shadow and box-shadow */
+.hi{
+    width: 400px;
+    height: 400px;
+    background-color: red; 
+    box-shadow: 50px 30px 50px rgb(0, 0, 0);   
+    margin-bottom: 50px;
+}
+.three{
+    height: 300px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: green;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+/* pesudo class
+:link,:hover, :visited, :active, :focus, :target, :disabled 
+*/
+a:hover{
+    background-color: red;
+    border: 2px solid green;
+    box-shadow: 15px 15px 40px rgb(0, 0, 0);
+}
+/* pesudo element
+::after, ::before, ::selection, ::first-line, ::first-letter, ::placeholder
+*/
+
+.four{
+    height: 300px;
+}
+/* a span::before{
+    content: " Hello world ";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+} */
+a span::after{
+    content: " Hello world ";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}

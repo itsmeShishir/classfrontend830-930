@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* widht , height 
+max-width
+max-height
+min-width 
+min-higth
+@ media query
+*/
+/* h1{
+    max-width: 400px;
+    background-color: green;
+    max-height: 25vh;
+} */
+
+@media screen and (min-width: 400px) {
+    h2{
+        background-color: red;
+        min-height: 25vh;
+    }
+}
+
+.one{
+    width: 100vw;
+    height: 200vh;
+    background-image: url("https://images.unsplash.com/photo-1735323694299-e23e3a49e71a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    background-attachment: fixed;
+    background-attachment: scroll;
+    backface-visibility: hidden;
+}
+/*  */
+img{
+    opacity: 1;
+    /* width: ; */
+    /* width: ; */
+    /* object-fit: fill; */
+}
+/* posiotion: absolute, relative , fixed , */
+
+nav{
+    height: 7vh;
+    width: 80vw;
+    margin: 0 auto;
+    background-color: green;
+    position: fixed;
+    position: relative;
+    position:static; /* normal */
+    position:sticky;
+    top: 10px;
+    left: 30px;
+}
+/* 
+    position: value
+*/
