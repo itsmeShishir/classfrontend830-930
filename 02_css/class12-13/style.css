@@ -1,0 +1,132 @@
+/* varibale for colors */
+:root{
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --tertiary-color: #f1e8e8;
+    --color-red: #EC1944;
+    --color-gray: #525252;
+    --color-icos: #1b8853;
+    --color-buttom: #1fb66d;
+    --primary-font: 'Nunito', sans-serif;
+    --font-size-1: 60px;
+    --font-size-2: 40px;
+    --font-size-4: 30px;
+    --font-size-5: 18px;
+    --font-size-6: 16px;
+    --font-size-7: 14px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+body{
+    background-color: #f1e8e8;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: var(--font-size-6);
+    font-weight: 600;
+}
+/* 1st child of a tag */
+li:nth-child(1) a{
+    color: var(--color-red);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.button{
+    background-color: var(--color-red);
+    color: var(--secondary-color);
+    padding: 18px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: var(--font-size-5);
+    font-weight: 600;
+    animation: movelefttoright 0.3s ease-in-out 0.3s;
+}
+.button:hover{
+    background-color: var(--color-buttom);
+}
+@keyframes moverlefttoright {
+    0%, 100%{
+        transform: translateX(-10px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+}
+.flexa{
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: var(--font-size-5);
+    gap: 20px;
+}
+.header{
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-icos);
+    height: 100vh;
+    
+}
+/* header section */
+.heading{
+    height: 7vh;
+}
+.items{
+    gap: 40px;
+}
+.logo{
+    color: var(--secondary-color);
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+/* main section */
+.one{
+    height: calc(100vh - 7vh);
+}
+.text{
+    width: 50vw;
+}
+.justify-between{
+    justify-content: space-between;
+    align-items: center;
+}
+.text-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-content h1{
+    font-size: var(--font-size-1);
+    font-weight: 600;
+}
+.text-content p{
+    font-size: var(--font-size-5);
+    font-weight: 400;
+}
+.text-content a{
+    width: 60%;
+}
