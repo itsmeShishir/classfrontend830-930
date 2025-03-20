@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- xs -12, text-sm -14, -md, -lg, xl, 2xl , 3xl , 4xl , 5xl, 6xl , 7xl , 8xl , 9xl -> 128px -->
+    <!-- font-width -> font-thin, font-normal, font-medium, font-semibold, font-bold, font-extrabold-->
+    <!-- font-family -> font-sans, font-serif, font-mono -->
+    <!-- text-align -> text-left, text-center, text-right, text-justify -->
+    <!-- text-decoration -> none, underline, line-through -->
+    <!-- text-color -> text-red-500, text-blue-500, text-green-500, text-yellow-500, text-purple-500, text-orange-500, text-gray-500, text-black, text-white -->
+    <!-- text-transform -> uppercase, lowercase, capitalize -->
+    <!-- text-shadow -> shadow-sm, shadow-md, shadow-lg, shadow-xl, shadow-2xl -->
+    <!-- text-overflow -> overflow-ellipsis, overflow-clip -->
+    <!-- text-wrap ->wrap-balance, text-wrap-normal -->
+    <!-- text-indent -> indent-sm, indent-md, indent-lg, indent-xl, indent-2xl, indent-3xl, indent-4xl, indent-5xl, indent-6xl, indent-7xl, indent-8xl, indent-9xl -->
+    <!-- letter-spacing -> tracking-tighter, tracking-tight, tracking-normal, tracking-wide, tracking-wider, tracking-widest -->
+    <!--word-spacing ->spacing-tighter,spacing-tight,spacing-normal,spacing-wide,spacing-wider,spacing-widest -->
+    <!-- word-break -> break-all, break-words, break-keep, break-normal, break-strict, break-words -->
+    <h1 class="text-md font-bold font-serif text-center line-through text-black uppercase
+       shadow-sm shadow-red-500 wrap-balance tracking-wide 
+    ">
+        Hello world
+    </h1>
+    <h5 class="md:indent-2xl spacing-widest">
+        hello world
+    </h5>
+    <p class="break-all">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis ratione ullam unde laborum explicabo veniam libero consectetur vero placeat quis architecto possimus voluptates, maiores non alias tempore et saepe accusantium sit neque dolor similique. Sapiente consequuntur similique pariatur modi. Perferendis nemo beatae quidem aperiam quas quam molestias, consequatur placeat exercitationem.
+    </p>
+    <!-- color -> red, green , blue -->
+    <!-- text-color-ration -->
+    <!-- bg-color-ration -->
+    <!-- ratio  -> 100 , 200 , 300 , 400 , 500 , 600 , 700 , 800 , 900 -->
+    <div class="bg-red-300 w-[100px] h-[100px]"> </div>
+    <div class="bg-red-700 w-[100px] h-[100px]"></div>
+    <div class="bg-red-900 w-[100px] h-[100px]"></div>
+
+    <!-- margin, padding,border,border-radius,border-width,border-color,border-style,border-radius-width,border-radius-color,border-radius-style -->
+    <!-- p -> p-1, p-2, p-3, p-4, p-5, p-6, p-7, p-8, p-9, p-10 -->
+     <!--pt, pb, pl, pr , pt-1, pb-1,   -->
+     <h1 class="bg-red-500 p-1">Hello world</h1>
+     <h2 class="bg-blue-500 pb-4 pl-1 pr-1">Hello world</h2>
+    <!-- margin -> m-1, m-2, m-3, m-4, m-5, m-6, m-7, m-8, m-9, m-10 -->
+    <!-- mt, mb, ml, mr , mt-1, mb-1, ml-1, mr-1, mt-2, mb-2, ml-2, mr-2, mt-3, mb-3, ml-3, mr-3, mt-4, mb-4, ml-4, mr-4, mt-5, mb-5, ml-5, mr-5, mt-6, mb-6, ml-6, mr-6, mt-7, mb-7, ml-7, mr-7, mt-8, mb-8, ml-8, mr-8, mt-9, mb-9, ml-9, mr-9, mt-10, mb-10, ml-10, mr-10 -->
+     <h3 class="bg-green-500 mt-1 mb-1 ml-1 mr-1">Hello world</h3>
+    
+     <!-- border -> border, border-2, border-4, border-6,  border-8, border-10 -->
+    <!-- border-color -> border-red-500, border-blue-500, border-green-500, border-yellow-500, border-purple-500, border-orange-500, border-gray-500, border-black, border-white -->
+     <!-- border-style -> border-solid, border-dashed, border-dotted, border-double, border-none, border-hidden -->
+     <!-- border-radius -> rounded-sm, rounded-md, rounded-lg, rounded-xl, rounded-2xl, rounded-3xl, rounded-4xl, rounded-5xl, rounded-6xl, rounded-7xl, rounded-8xl, rounded-9xl -->
+     <h4 class="bg-yellow-500 border-10 border-red-500 border-dashed rounded-sm">Hello world</h4>
+
+     <!-- width -> w-1, w-2, w-3, w-4, w-5, w-6, w-7, w-8, w-9, w-10 , w-1/2, w-1/3, w-1/4, w-1/5, w-1/6, w-1/7, w-1/8, w-1/9, w-1/10, w-full, w-1/2, w-1/3, w-1/4, w-1/5, w-1/6, w-1/7, w-1/8, w-1/9, w-1/10 -->
+     <!-- height -> h-1, h-2, h-3, h-4, h-5, h-6, h-7, h-8, h-9, h-10 , h-1/2, h-1/3, h-1/4, h-1/5, h-1/6, h-1/7, h-1/8, h-1/9, h-1/10, h-full, h-1/2, h-1/3, h-1/4, h-1/5, h-1/6, h-1/7, h-1/8, w-1/9, w-1/10 -->
+     <div class="bg-blue-500 w-full h-full">Hello world</div>
+
+     <!-- min-width -> min-w-1, min-w-2, min-w-3, min-w-4, min-w-5, min-w-6, min-w-7, min-w-8, min-w-9, min-w-10 , min-w-1/2, min-w-1/3, min-w-1/4, min-w-1/5, min-w-1/6, min-w-1/7, min-w-1/8, min-w-1/9, min-w-1/10, min-w-full, min-w-1/2, min-w-1/3, min-w-1/4, min-w-1/5, min-w-1/6, min-w-1/7, min-w-1/8, min-w-1/9, min-w-1/10 -->
+    <div class="bg-red-500 min-w-full">Hello world</div>
+
+    <!-- box-shadow -> shadow-sm, shadow-md, shadow-lg, shadow-xl, shadow-2xl -->
+     <!-- text-shadow -> text-shadow-sm, text-shadow-md, text-shadow-lg, text-shadow-xl, text-shadow-2xl -->
+     <h1 class="text-shadow-sm text-shadow-red-500">Hello world</h1>
+
+    <!-- opacity -> opacity-0, opacity-25, opacity-50, opacity-75, opacity-100 -->
+     <div class="bg-blue-500 opacity-25">Hello world</div>
+
+     <!-- images -> background-image, background-size, background-position, background-repeat, background-attachment -->
+     <img src="https://images.unsplash.com/photo-1734760444698-ce341bfd1636?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8" alt="image" class="bg-image-size-cover bg-no-repeat bg-center">
+
+     <!-- display -> inline, inline-block, block, flex, grid, hidden -->
+     <div class="bg-red-500 inline">Hello world</div>
+     <div class="bg-blue-500 inline-block">Hello world</div>
+     <div class="bg-green-500 block">Hello world</div>
+     <div class="bg-yellow-500 flex">Hello world</div>
+     <div class="bg-purple-500 grid">Hello world</div>
+     <div class="bg-orange-500 hidden">Hello worlds</div>
+
+     <!-- position -> static, relative, absolute, fixed, sticky -->
+      <!-- top, right, bottom, left -> top-1, top-2, top-3, top-4, top-5, top-6, top-7, top-8, top-9, top-10, top-1/2, top-1/3, top-1/4, top-1/5, top-1/6, top-1/7, top-1/8, top-1/9, top-1/10 -->
+     <div class="bg-red-500 static">Hello world</div>
+     <div class="bg-blue-500 relative top-10">Relative</div>
+     <div class="bg-green-500 absolute top-10 left-10">Absolute</div>
+     <div class="bg-yellow-500 fixed top-10 right-10">fixed</div>
+     <div class="bg-purple-500 sticky top-10 bottom-10">Sticky</div>
+
+     <!-- z-index -> z-1, z-2, z-3, z-4, z-5, z-6, z-7, z-8, z-9, z-10 -->
+      <div class="bg-red-500 z-10">Zindex</div>
+
+    <!-- overflow -> overflow-visible, overflow-hidden, overflow-clip, overflow-scroll, overflow-auto -->
+     <p class="overflow-scroll h-[100px] w-[100px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+
+    <!-- list-style-type -> list-none, list-disc, list-decimal -->
+    <ul class="list-decimal">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- flex -> justify-start, justify-end, justify-center, justify-between, justify-around, justify-evenly -->
+     <!-- align-items -> items-start, items-end, items-center, items-baseline, items-stretch -->
+      <!-- gap -> gap-1, gap-2, gap-3, gap-4, gap-5, gap-6, gap-7, gap-8, gap-9, gap-10 -->
+      <!-- flex-wrap -> flex-wrap, flex-nowrap, flex-wrap-reverse -->
+      <!-- flex-direction -> flex-row, flex-col, flex-row-reverse, flex-col-reverse -->
+      <!-- flex-grow -> flex-grow-0, flex-grow-1, flex-grow-2, flex-grow-3, flex-grow-4, flex-grow-5, flex-grow-6, flex-grow-7, flex-grow-8, flex-grow-9, flex-grow-10 -->
+      <!-- flex-shrink -> flex-shrink-0, flex-shrink-1, flex-shrink-2, flex-shrink-3, flex-shrink-4, flex-shrink-5, flex-shrink-6, flex-shrink-7, flex-shrink-8, flex-shrink-9, flex-shrink-10 -->
+      <!-- flex-basis -> flex-basis-auto, flex-basis-0, flex-basis-1, flex-basis-2, flex-basis-3, flex-basis-4, flex-basis-5, flex-basis-6, flex-basis-7, flex-basis-8, flex-basis-9, flex-basis-10 -->
+     <div class="flex justify-center items-center gap-10 flex-wrap flex-col">
+        <div class="bg-red-500 w-10 h-10 flex-grow-1">Item 1</div>
+        <div class="bg-blue-500 w-10 h-10 flex-grow-1">Item 2</div>
+        <div class="bg-green-500 w-10 h-10 flex-grow-1">Item 3</div>
+     </div>
+
+     <!-- grid -> grid-cols-1, grid-cols-2, grid-cols-3, grid-cols-4, grid-cols-5, grid-cols-6, grid-cols-7, grid-cols-8, grid-cols-9, grid-cols-10 -->
+     <!-- grid-rows -> grid-rows-1, grid-rows-2, grid-rows-3, grid-rows-4, grid-rows-5, grid-rows-6, grid-rows-7, grid-rows-8, grid-rows-9, grid-rows-10 -->
+     <!-- grid-template-columns -> grid-template-columns-1, grid-template-columns-2, grid-template-columns-3, grid-template-columns-4, grid-template-columns-5, grid-template-columns-6, grid-template-columns-7, grid-template-columns-8, grid-template-columns-9, grid-template-columns-10 -->
+     <div class="grid grid-cols-3 grid-rows-3  gap-10">
+        <div class="bg-red-500">Item 1</div>
+        <div class="bg-blue-500">Item 2</div>
+        <div class="bg-green-500">Item 3</div>
+     </div>
+
+     <!-- responsive  -> md: , sm: , lg: , xl: , 2xl: , 3xl: , 4xl: , 5xl: , 6xl: , 7xl: , 8xl: , 9xl: , 10xl: -->
+     <div class="grid grid-cols-3 grid-rows-3  gap-10">
+        <div class="bg-red-500 md:bg-blue-500">Item 1</div>
+        <div class="bg-blue-500 md:bg-green-500">Item 2</div>
+        <div class="bg-green-500 md:bg-red-500">Item 3</div>
+     </div> 
+
+     <!-- hover, active, focus, visited, focus-within, focus-visible, disabled, checked, default, invalid, valid, required, optional, read-only, read-write, placeholder-shown, empty, user-invalid, user-valid, not, has -->
+     <button class="bg-red-500 hover:bg-blue-500">Hover</button>
+     <button class="bg-red-500 active:bg-blue-500">Active</button>
+     <button class="bg-red-500 focus:bg-blue-500">Focus</button>
+     <button class="bg-red-500 visited:bg-blue-500">Visited</button>
+     <button class="bg-red-500 focus-within:bg-blue-500">Focus-within</button>
+
+     <!-- transition -> animation  -->
+     <div class="bg-red-500 transition-all duration-300 hover:bg-blue-500">Transition</div>
+
+     <!-- animation -> animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, animation-play-state -->
+     <div class="bg-red-500 animation-name:bg-blue-500">Animation</div>
+
+     <!-- transform -> transform-translate-x, transform-translate-y, transform-translate-z, transform-rotate, transform-scale, transform-skew, transform-matrix -->
+     <div class="bg-red-500 transform-translate-x-10">Transform</div>
+     
+     
+        
+    
+
+</body>
+</html>
