@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('click garda alert show garne')">Click me</button>
+    <!--  this in js  -->
+      <button onclick="this.innerHTML = Date()">show time and date</button>
+    
+      <!-- 3 using callback function in js -->
+
+    <button onclick="showTime()">The time is ?</button>
+    <h1 id="demo"></h1>
+
+    <h2 id="one">
+        Show TIme and date
+    </h2>
+    <script>
+        function showTime() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+
+    <script>
+        document.getElementById("one").addEventListener("click", function(){
+            document.getElementById("one").innerHTML = Date();
+        })
+    </script>
+
+    
+</body>
+</html>
